@@ -4,7 +4,7 @@ num1 = gets.chomp.to_f
 puts "Введіть друге число:"
 num2 = gets.chomp.to_f
 
-puts "Оберіть операцію (+, -, *, /):"
+puts "Оберіть операцію:"
 operation = gets.chomp
 
 result = case operation
